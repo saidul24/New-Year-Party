@@ -1,0 +1,53 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif; */
+
+/* shear style start */
+.container{
+    width: 82%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+/* shear style end */
+
+/* header style start */
+.banner{
+    background-image: url("../resources/Banner\ Image.png");
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.banner-item{
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.banner-title{
+color: #FFF;
+font-family: Merriweather;
+font-size: 32px;
+font-weight: 400;
+text-align: center;
+padding-top: 177px;
+}
+
+.banner-desc{
+color: #FFF;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+text-align: center;
+padding: 0px 344px;
+padding-bottom: 177px;
+padding-top: 20px;
+}
+
+/* header style end */
