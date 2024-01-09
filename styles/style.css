@@ -211,6 +211,7 @@
 .sec-head-new{
   display: flex;
   margin-top: 120px;
+  height: 364.844px;
 }
 
 .newl-title{
@@ -242,17 +243,15 @@
 }
 
 .center-site{
-  border-radius: 463px;
-  border: 15px solid #F00;
   margin-left: 70px;
+ 
 }
 
 .img-new{
-
-  margin: 20px;
-  margin-top: 28px;
-  border-radius: 364.844px;
-  background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat;
+  border: red 16px solid;
+  border-radius: 50%;
+  padding: 30px;
+  background: lightgray -91.279px 0px / 150.038% 100% no-repeat;
 }
 
 .newr-title{
@@ -325,7 +324,7 @@
   margin: 0;
 }
 .gift-item:hover{
-  box-shadow: 5px 5px 10px 5px rgb(233, 88, 243);
+  box-shadow: 5px 5px 10px 5px rgb(162, 43, 170);
 
 }
 
