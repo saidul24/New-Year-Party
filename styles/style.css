@@ -97,8 +97,6 @@
     background-image: url("../resources/Vectorrr.png");
     width: 100%;
     margin-top: 120px;
-    border-radius: 50tpx;
-    background-size: cover;
 }
 
 .welcome-banner{
@@ -116,7 +114,7 @@
     font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
-    line-height: 88px; /* 137.5% */
+    line-height: 88px;
     letter-spacing: 7.04px;
     padding-top: 126px;
     padding-left: 126px;
@@ -172,6 +170,7 @@
   font-weight: 600;
   line-height: 56px;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .location-item .sp{
@@ -198,7 +197,6 @@
 
 .center-btn{
   text-align: center;
-  padding-right: 75px;
 }
 
 .location-btn h2{
@@ -206,6 +204,79 @@
 }
 
 /* location section end */
+
+
+/* new offer start */
+
+.sec-head-new{
+  display: flex;
+  margin-top: 120px;
+}
+
+.newl-title{
+  margin-top: 104px;
+  color:#F00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.newl-title2{
+  color: #070211;
+
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px
+}
+
+.newl-desc{
+  color: rgba(7, 2, 17, 0.60);
+  width: 393px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.center-site{
+  border-radius: 463px;
+  border: 15px solid #F00;
+  margin-left: 70px;
+}
+
+.img-new{
+
+  margin: 20px;
+  margin-top: 28px;
+  border-radius: 364.844px;
+  background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat;
+}
+
+.newr-title{
+  color: #F00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 112px;
+}
+
+.newr-desc{
+  color: rgba(7, 2, 17, 0.60);
+  margin-top: 16px;
+  margin-bottom: 43px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+.right-site{
+  padding-left: 118px;
+}
+/* new offer end */
 
 /* gift section start */
 
@@ -231,6 +302,7 @@
 }
 
 .gift-desc{
+  width: 896px;
   color: rgba(7, 2, 17, 0.60);
   margin-top: 22px;
   margin-bottom: 48px;
@@ -263,6 +335,7 @@
 .subscribe{
   text-align: center;
   margin-top: 120px;
+  margin-bottom: 120px;
   height: 614px;
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
@@ -392,3 +465,5 @@ footer{
 }
 
 /* footer end */
+
+
